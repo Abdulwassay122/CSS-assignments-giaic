@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+</head>
+<style>
+    .main-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-container h1{
+        margin-bottom: 50px;
+        font-size: 50px;
+    }
+    .table1{
+        border: 2px solid black;
+        width: auto;
+        height: 400px;
+    }
+    .table-element{
+        border: 2px solid black;
+        height: 62px;
+        width: 80px;
+        font-size: 20px;
+        padding-left: 30px;
+        /* display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5px;    */
+    }
+    .table2{
+        border: 2px solid black;
+        margin-top: 20px ;
+    }
+</style>
+<body>
+    <div class="main-container">
+        <h1>The Periodic table </h1>
+        <table class="table1">
+            <tr class="table-row">
+                <td class="table-element" style="background-color: orange;">1<br>H</td>
+                <td class="table-element" colspan="16" ></td>
+                <td class="table-element" style="background-color: rgb(44, 188, 246);">2 <br>He</td>
+            </tr>
+            <tr class="table-row">
+                <td class="table-element" style="background-color: rgb(195, 97, 195);">3 <br> Li</td>
+                <td class="table-element" style="background-color: royalblue;">4 <br>Be</td>
+                <td colspan="10" class="table-element"></td>
+                <td class="table-element" style="background-color: rgb(181, 57, 57);">5<br>B</td>
+                <td class="table-element" style="background-color: palevioletred;">6<br>C</td>
+                <td class="table-element" style="background-color: palevioletred;">7<br>N</td>
+                <td class="table-element" style="background-color: palevioletred;">8<br>O</td>
+                <td class="table-element" style="background-color: rgb(218, 168, 20);">9<br>F</td>
+                <td class="table-element"style="background-color: rgb(44, 188, 246);">10<br>Ne</td>
+            </tr>
+            <tr class="table-row">
+                <td class="table-element"style="background-color: rgb(195, 97, 195);">11<br>Na</td>
+                <td class="table-element"style="background-color: royalblue;">12<br>Mg</td>
+                <td class="table-element" colspan="10"></td>
+                <td class="table-element" style="background-color: rgb(4, 101, 4);">13<br>Al</td>
+                <td class="table-element"style="background-color: rgb(181, 57, 57);">14<br>Si</td>
+                <td class="table-element" style="background-color: palevioletred;">15<br>P</td>
+                <td class="table-element"style="background-color: palevioletred;">16<br>S</td>
+                <td class="table-element" style="background-color: rgb(218, 168, 20);">17<br>Cl</td>
+                <td class="table-element"style="background-color: rgb(44, 188, 246);">18<br>Ar</td>
+            </tr>
+            <tr class="table-row">
+                <td class="table-element"style="background-color: rgb(195, 97, 195);">19<br></td>
+                <td class="table-element"style="background-color: royalblue;">20<br>Ca</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">21<br>Sc</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">22<br>Ti</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">23<br>V</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">24<br>Cr</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">24<br>Mn</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">26<br>Fe</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">27<br>Co</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">28<br>Ni</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">29<br>Cu</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">30<br>Zn</td>
+                <td class="table-element"style="background-color: rgb(4, 101, 4);">31<br>Ga</td>
+                <td class="table-element"style="background-color: rgb(181, 57, 57);">32<br>Ga</td>
+                <td class="table-element"style="background-color: rgb(181, 57, 57);">33<br>As</td>
+                <td class="table-element"style="background-color: palevioletred;">34<br>Se</td>
+                <td class="table-element" style="background-color: rgb(218, 168, 20);">35<br>Br</td>
+                <td class="table-element"style="background-color: rgb(44, 188, 246);">36<br>Kr</td>
+            </tr>
+            <tr class="table-row">
+                <td class="table-element"style="background-color: rgb(195, 97, 195);">37<br>Rb</td>
+                <td class="table-element"style="background-color: royalblue;">38<br>Sr</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">39<br>Y</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">40<br>Zr</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">41<br>Nb</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">42<br>Mo</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">43<br>Tc</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">44<br>Ru</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">45<br>Rh</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">46<br>Pd</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">47<br>Ag</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">48<br>Cd</td>
+                <td class="table-element"style="background-color: rgb(4, 101, 4);">49<br>In</td>
+                <td class="table-element"style="background-color: rgb(4, 101, 4);">50<br>Sn</td>
+                <td class="table-element"style="background-color: rgb(181, 57, 57);">51<br>Sb</td>
+                <td class="table-element"style="background-color: rgb(181, 57, 57);">52<br>Te</td>
+                <td class="table-element" style="background-color: rgb(218, 168, 20);">53<br>I</td>
+                <td class="table-element"style="background-color: rgb(44, 188, 246);">54<br>Xe</td>
+            </tr>
+            <tr class="table-row">
+                <td class="table-element"style="background-color: rgb(195, 97, 195);">55<br>Cs</td>
+                <td class="table-element"style="background-color: royalblue;">56<br>Ba</td>
+                <td class="table-element" style="background-color: rgb(182, 113, 182);">57<br>La</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">58<br>Ce</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">59<br>Pr</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">61<br>Nd</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">62<br>Pm</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">63<br>Sm</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">64<br>Eu</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">65<br>Gd</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">66<br>Tb</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">67<br>Dy</td>
+                <td class="table-element"style="background-color: rgb(4, 101, 4);">68<br>Ho</td>
+                <td class="table-element"style="background-color: rgb(4, 101, 4);">69<br>Er</td>
+                <td class="table-element"style="background-color: rgb(4, 101, 4);">70<br>Tm</td>
+                <td class="table-element"style="background-color: rgb(181, 57, 57);">71<br>Yb</td>
+                <td class="table-element" style="background-color: rgb(218, 168, 20);">72<br>Lu</td>
+                <td class="table-element"style="background-color: rgb(44, 188, 246);">73<br>Hf</td>
+            </tr>
+            <tr class="table-row">
+                <td class="table-element"style="background-color: rgb(195, 97, 195);">74<br>Ta</td>
+                <td class="table-element"style="background-color: royalblue;">75<br>W</td>
+                <td class="table-element" style="background-color: rgb(182, 113, 182);">76<br>Re</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);" >77<br>Os</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">78<br>Ir</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">79<br>Pt</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">81<br>Au</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">82<br>Hg</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">83<br>Tl</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">84<br>Pb</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">85<br>Bi</td>
+                <td class="table-element" style="background-color: rgb(227, 220, 2);">86<br>Po</td>
+                <td class="table-element">87<br>At</td>
+                <td class="table-element">88<br>Rn</td>
+                <td class="table-element">89<br>Fr</td>
+                <td class="table-element">90<br>Ra</td>
+                <td class="table-element">91<br>Ac</td>
+                <td class="table-element">92<br>Th</td>
+            </tr>
+        </table>
+        <table class="table2">
+            <tr class="table-row">
+                <td class="table-element" style="width: 25px;" rowspan="2"></td>
+                <td class="table-element" style="width: 25px;"rowspan="2"></td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">93<br>Pa</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">94<br>U</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">95<br>Np</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">96<br>Pu</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">97<br>Am</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">98<br>Cm</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">99<br>Bk</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">100<br>Cf</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">101<br>Es</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">102<br>Fm</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">103<br>Md</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">104<br>No</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">105<br>Rf</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">106<br>Lr</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">107<br>Rf</td>
+                <td class="table-element" style="width: 25px;"rowspan="2"></td>
+            </tr>
+            <tr class="table-row">
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">108<br>Db</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">109<br>Sg</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">111<br>Bh</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">112<br>Hs</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">113<br>Mt</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">114<br>Ds</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">115<br>Rg</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">116<br>Cn</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">117<br>Nh</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">118<br>Fl</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">119<br>Mc</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">120<br>Lv</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">121<br>Ts</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">123<br>Og</td>
+                <td class="table-element"style="background-color: rgb(182, 113, 182);">124<br>Yb</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

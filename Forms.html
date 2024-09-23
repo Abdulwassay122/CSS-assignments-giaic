@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<style>
+    .your-detail fieldset{
+        border: 2px solid black;
+        padding: 10px;
+        width: 700px;
+    }
+    .input{
+        margin: 10px;
+    }
+    .your-review fieldset   {
+        border: 2px solid black;
+        padding: 10px;
+        width: 700px;
+    }
+    .your-review fieldset div {
+        margin: 10px;
+    }
+</style>
+<body>
+    <div class="main-container">
+        <h1>Chapter # 7 - Forms</h1>
+        <div class="your-detail">
+            <fieldset>
+            <legend>Your Details:</legend> 
+
+            <div class="input"><label for="input">Name:</label><input type="text"></div>            
+            <div class="input"><label for="input">Email:</label><input type="email"></div>
+
+            </fieldset>  
+        </div>
+        <div class="your-review">
+            <fieldset>
+            <legend>Your Review:</legend> 
+
+            <div><label for="select">How did oyu hear about us?</label>
+            <select name="select" id="">
+                <option value="google">Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Word-of-mouth">Word of mouth</option>
+            </select>
+            </div>
+            <div>
+            <label for="chose">Would like to visit again?</label>
+            <br>
+            <input type="radio" name="group"><label>Yes</label>
+            <input type="radio" name="group"><label>No</label>
+            <input type="radio" name="group"><label>Maybe</label>
+            </div>
+            <div>
+            <label for="comments">Comments:</label><br>
+            <input type="text-box">
+            </div> 
+            <div> 
+            <input type="checkbox">Sign me up for email updates
+            </div>
+            <div>
+            <button>Submit Review</button>
+            </div>       
+            </fieldset>  
+        </div>
+    </div>
+</body>
+</html>
